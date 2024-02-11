@@ -23,7 +23,14 @@ p{
     display: flex;
     justify-content: space-around;
 }
-
+.links a:hover{
+    color: #0b5ed7;
+    transform: translateY(-5px);
+}
+.links button:hover{
+    color: #0b5ed7;
+    transform: translateY(-5px);
+}
 
 .first{
     height: 100vh;
@@ -32,6 +39,9 @@ p{
     margin-top: 7%;
     width: 20%;
     border-radius: 50%;
+}
+.profile_pic:hover{
+    border: 4px solid #0d6efd;
 }
 .intro {
     display: flex;
@@ -59,6 +69,7 @@ p{
 
 .submit-button:hover {
     background-color: #0b5ed7; /* Darker shade of blue on hover */
+    color:white;
     /* You can adjust the hover effect as needed */
 }
 .Navbar {
@@ -70,6 +81,17 @@ p{
     width: 70%;
     background-color: #212529;
 }
+#linkdin {
+    color: blue;
+    text-decoration: none; /* Remove underline */
+
+}
+
+#linkdin:hover {
+    color: white;
+}
+
+
 .about{
     display: flex;
     justify-content: space-around;
@@ -82,5 +104,149 @@ p{
     margin-top: 0px;
 }
 .second{
-    height: 70vh;
+    height: 100vh;
+    padding-top: 1%;
+}
+.head_skill{
+    background-color: #272b2f;
+}
+.skill_box{
+    background-color:#424549 ;
+}
+.skills{
+    height: 40vh;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+    gap: 10px;
+  }
+  
+  .project-item {
+    background-color: #272b2f;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .image-display img{
+    width:70%;
+  }
+
+  .project-item:hover {
+    background-color: #0d6efd;
+  }
+  .project-item:hover span{
+    color: white;
+  }
+  
+  #project-image{
+    width: 900px;
+    margin: 10px;
+    
+  }
+  .bord{
+    border: 5px solid #0d6efd;
+    border-radius: 2%;
+  }
+
+.skill_navb{
+    height: 95vh;
+}
+
+  
+
+/* constact */
+.contact-left{
+    flex-basis:35%;
+}
+.contact-right{
+    flex-basis:35%;
+}
+.contact-left p{
+    margin-top:30px;
+}
+.contact-left p i{
+    color: #0b5ed7;
+    margin-right:15px;
+    font-size:25;
+
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration:none ;
+    font-size: 30px;
+    margin-right: 15px;
+    color:white;
+    display: inline-block;
+    transition:transfrom 0.5s;
+
+}
+.social-icons a:hover{
+    color: #0b5ed7;
+    transform: translateY(-5px);
+}
+
+.btn.btn2{
+    display:inline-block;
+    background: #0b5ed7;
+    color: white;
+}
+
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width:100%;
+    border:0;
+    outline:none;
+    background: #272b2f;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size:18px;
+    border-radius:6px;
+}
+
+form btn2{
+    padding:14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding:25px;
+    background: #272b2f;
+    font-weight: 300;
+    margin-top:20;
+}
+
+#contact{
+    margin-top: 100px;
+}
+.copyright p{
+    color: #0b5ed7;
+    font-size: 1.5rem;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
